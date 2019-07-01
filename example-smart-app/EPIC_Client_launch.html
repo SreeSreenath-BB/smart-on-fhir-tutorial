@@ -28,12 +28,13 @@
 //        'client_id': '88fddac9-4474-40cb-80d4-42d79b3ae5ae', //Epic non prod client id
 //        'scope':  'patient/Patient.read patient/Observation.read launch online_access openid profile'
           "client": {
-          //      "client_id": "88fddac9-4474-40cb-80d4-42d79b3ae5ae", //non-prod
-                "client_id": "faeecff0-6229-44c5-b202-74387d7506a0", //prod
+                "client_id": "88fddac9-4474-40cb-80d4-42d79b3ae5ae", //non-prod
+          //      "client_id": "faeecff0-6229-44c5-b202-74387d7506a0", //prod
                 "scope": ["patient/*.read launch online_access openid profile"],
                 "redirect_uri": "https://SreeSreenath-BB.github.io/smart-on-fhir-tutorial/example-smart-app/"
             },
-            "server":"https://fhir.harrishealth.org/fhir/api/FHIR/DSTU2/"
+            //"server":"https://fhir.harrishealth.org/fhir/api/FHIR/DSTU2/"
+            "server":"https://open-ic.epic.com/Argonaut/api/FHIR/Argonaut"
       });
     </script>
     <div class="spinner">
